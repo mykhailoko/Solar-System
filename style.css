@@ -1,0 +1,81 @@
+canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px 60px;
+}
+
+.text-left, .text-right {
+  color: white;
+}
+
+.section {
+  width: 100%;
+  overflow: auto;
+  padding-top: 400px;
+}
+
+#mercury {
+  padding-top: 50px;
+}
+
+#neptune {
+  padding-bottom: 200px;
+}
+
+.left {
+  float: left;
+  width: 40%;
+}
+
+.right {
+  float: right;
+  width: 40%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 37px;
+  font-weight: 500;
+  padding: 50px 0px;
+  letter-spacing: 2px;
+}
+
+.title {
+  color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+  #mercury {
+    padding-top: 10px;
+  }
+
+  .navbar-title {
+    padding-bottom: 10px;
+  }
+
+  body {
+    padding: 0px 30px;
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    width: 60%;
+  }
+}
